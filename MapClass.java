@@ -10,6 +10,7 @@ public class MapClass {
         for(Map.Entry<String,String> x : marks.entrySet()){
             System.out.println(x);
             System.out.println(x.getKey());
+            System.out.println("------");
             System.out.println(x.getValue());
         }
     }
